@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/style.css">
+	<title>protfolio</title>
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+			<img class="udacity-logo" src="img/udacity_logo.svg" alt="Udacity logo">
+		</div>
+		<div class="main-title">
+			<h1 class="super-title">JANE DOETTE</h1>
+			<h2 class="big-title">FONT-END NINJA</h2>
+		</div>
+		<hr class="hr">
+	</header>
+	<main>
+		<picture>
+			<source media="(max-width:650px)" srcset="img/panda_320_180.jpg 320w, img/panda_640_360.jpg 640w, img/panda_960_540.jpg 960w" sizes="90vw"/>
+			<source media="(min-width:650px) and (max-width: 800px)" srcset="img/panda_960_540.jpg 960w, img/panda_1920_1080.jpg 1920w" sizes="90vw"/>
+			<img class="main-picture"  src="img/panda_960_540.jpg" srcset="img/panda_1920_1080.jpg 1920w, img/panda_960_540.jpg 960w" alt="panda plcture">
+		</picture>
+		<div class="container">
+			<h2 class="sec-title">Lovely Pet</h2>
+			<div class="col">
+				<div class="picture">
+					<picture>
+						<source media="(max-width:650px)" srcset="img/cat_320_180.jpg 320w, img/cat_640_360.jpg 640w, img/cat_960_540.jpg 960w" sizes="90vw"/>
+						<source media="(min-width:650px) and (max-width: 800px)" srcset="img/cat_640_360.jpg 640w, img/cat_960_540.jpg 960w" sizes="90vw"/>
+						<img class="col-pic" src="img/cat_320_180.jpg" srcset="img/cat_640_360.jpg 640w, img/cat_320_180.jpg 320w" alt="cat plcture">
+					</picture>
+				</div>
+				<div class="cat">
+					<h3 class="col-name">Kitty</h3>
+					<p class="content">The cat was created when the lion sneezed.</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="picture">
+					<picture>
+						<source media="(max-width:650px)" srcset="img/dog_320_180.jpg 320w, img/dog_640_360.jpg 640w, img/dog_960_540.jpg 960w" sizes="90vw"/>
+						<source media="(min-width:650px) and (max-width: 800px)" srcset="img/dog_640_360.jpg 640w, img/dog_960_540.jpg 960w" sizes="90vw"/>
+						<img class="col-pic" src="img/dog_320_180.jpg" srcset="img/dog_640_360.jpg 640w, img/dog_320_180.jpg 320w" alt="dog plcture">
+					</picture>
+				</div>
+				<div class="dog">
+					<h3 class="col-name">Puppy</h3>
+					<p class="content">The greater love is a mother's; then comes a dog's; then a sweetheart's.</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="picture">
+					<picture>
+						<source media="(max-width:650px)" srcset="img/bird_320_180.jpg 320w, img/bird_640_360.jpg 640w, img/bird_960_540.jpg 960w" sizes="90vw"/>
+						<source media="(min-width:650px) and (max-width: 800px)" srcset="img/bird_640_360.jpg 640w, img/bird_960_540.jpg 960w" sizes="90vw"/>
+						<img class="col-pic" src="img/bird_320_180.jpg" srcset="img/bird_640_360.jpg 640w, img/bird_320_180.jpg 320w" alt="bird plcture">
+					</picture>
+				</div>
+				<div class="bird">
+					<h3 class="col-name">Birdie</h3>
+					<p class="content">A bird does not sing because it has an answer. It sings because it has a song.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>

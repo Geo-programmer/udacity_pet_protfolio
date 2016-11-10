@@ -1,0 +1,154 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	width: 90vw;
+	max-width: 960px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+}
+
+.logo {
+	width: 20%;
+	text-align: left;
+	padding-top: 55px;
+}
+
+.udacity-logo {
+	width: 70px;
+	height: 70px;
+}
+
+.main-title {
+	text-align: right;
+	width: 80%;
+}
+
+.super-title {
+	font-size: 60px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.big-title {
+	margin-top: 0;
+}
+
+hr {
+	height: 3px;
+	background-color: #9fb5c7;
+}
+
+.container {
+	max-width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+
+}
+
+.col {
+	width: calc((100% - 30px)/3);
+	margin-right: 15px;
+}
+
+.sec-title {
+	font-size: 35px;
+	width: 100%;
+	text-align: left;
+	color: #7d97ad;
+}
+
+.col-pic {
+	width: 100%;
+}
+
+.content {
+	text-align: justify;
+	width: 100%;
+
+}
+
+.col:last-of-type {
+	margin-right: 0;
+}
+
+.main-picture {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+	.sec-title {
+		font-size: 30px;
+	}
+
+	.logo {
+	padding-top: 20px;
+	}
+
+	.udacity-logo {
+	width: 50px;
+	height: 50px;
+	}
+
+	.super-title {
+		font-size: 25px;
+	}
+
+	.big-title {
+		font-size: 15px;
+	}
+
+	.col {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+}
+
+@media screen and (min-width: 651px) and (max-width: 800px) {
+	.col {
+		margin-top: 20px;
+		display: flex;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.sec-title {
+		margin-bottom: 0;
+	}
+
+	.picture {
+		display: block;
+		width: 60%;
+
+	}
+	.cat {
+		display: table;
+		width: 40%;
+		align-items: center;
+		padding: 5% 3% 0;
+	}
+
+	.dog {
+		width: 40%;
+		order: -1;
+		align-items: center;
+		padding: 5% 3% 0;
+	}
+
+	.bird {
+		width: 40%;
+		padding-top: 5%;
+		padding: 5% 3% 0;
+	}
+
+	.col-pic {
+		box-shadow: 5px;
+	}
+}
